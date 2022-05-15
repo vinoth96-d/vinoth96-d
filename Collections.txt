@@ -1,0 +1,33 @@
+Nov 13(sat);
+ArrayList>---
+1.It is a dynamic data structue.
+2.We can use add method to add the value / Get method to retrieve the value.
+3.ArrayList follows the insertion order like [0],[1],[2],..
+4.ArrayList accept duplicate values.
+5.ArrayList is asynchronous.
+6.It follows resizeable architecture.i.e When we remove index[2] value,index[3] value will come to the former index and so on.
+
+LinkedList>---
+1.It is a dynamic data structue where we could be able store many values without specifying dimensions.
+2.We can use add method to add the value / Get method to retrieve the value.
+3.It follows the insertion order like [0],[1],[2],..
+4.It accept duplicate values.
+5.ArrayList is asynchronous.
+6.LinkedList follows doubly linked architecture. 
+
+Common b/w Arraylist and Linkedlist:
+1.we can to store multiple data either in Arraylist or Linkedlist.
+2.Both are childs of LIST.
+3.Both follows insertion order.
+4.Both accepts duplicate values.
+5.Both are asynchronised.
+
+Diff b/w Arraylist and linkedlist:
+1.arraylist follows resizeable architecture but linledlist follows doubly linked architecture.
+
+When to use Arraylist & Linkedlist:
+ when your frequent operation is to RETRIEVE the data then Arraylist is the best.
+ when your frequent operation is to MODIFY the data theN Listedlist is the best.
+
+
+
