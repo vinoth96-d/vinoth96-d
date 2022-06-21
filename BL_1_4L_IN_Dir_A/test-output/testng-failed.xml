@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test parallel="none" name="Default test(failed)">
+    <classes>
+      <class name="com.Axisring.pom.testcases.Login">
+        <methods>
+          <include name="startTest"/>
+          <include name="Loging"/>
+          <include name="Loging_module"/>
+        </methods>
+      </class> <!-- com.Axisring.pom.testcases.Login -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

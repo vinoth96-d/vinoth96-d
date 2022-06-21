@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.dimensionData.pom.testcases.GuestUserFlow">
+        <methods>
+          <include name="quit"/>
+          <include name="Launch" invocation-numbers="0"/>
+          <include name="productSearch" invocation-numbers="0"/>
+          <include name="registeration" invocation-numbers="0"/>
+          <include name="browseProducts" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- GuestUserFlow -->
+      <class name="com.dimensionData.pom.testcases.RegisteredUserFlow">
+        <methods>
+          <include name="quit"/>
+          <include name="signIn" invocation-numbers="0"/>
+          <include name="Launch" invocation-numbers="0"/>
+          <include name="bookSlot" invocation-numbers="0"/>
+          <include name="incrementAndDecrementItems" invocation-numbers="0"/>
+          <include name="addItem" invocation-numbers="0"/>
+          <include name="changeDeliveryAddress" invocation-numbers="0"/>
+          <include name="reviewBasketAndValidateGuidePrice" invocation-numbers="0"/>
+          <include name="changeSlot" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- RegisteredUserFlow -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

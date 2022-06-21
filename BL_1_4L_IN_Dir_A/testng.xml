@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="SuiteName" parallel="tests">
+	
+	<test name="TescoLoginTest" allow-return-values="true">
+		<classes>
+			<class 	name="com.dimensionData.pom.testcases.GuestUserFlow" />
+	     <!--  	<class 	name="RegisteredUserFlow" />     -->
+		</classes>
+	</test>	
+</suite>
